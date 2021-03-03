@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    min-width: 1600px;
+    margin: 0 auto;
+}
