@@ -10,7 +10,11 @@ body {
 
 .course_start {
     background: #9DC9C8;
-    padding-left: 122px;
+    height: 780px;
+}
+
+.course_start-inner {
+    padding: 179px 545px 185px 122px;
 }
 
 h2 {
@@ -19,7 +23,6 @@ h2 {
     font-weight: bold;
     font-size: 55px;
     line-height: 55.76px;
-    padding-top: 179px;
     margin: 0;
 }
 
@@ -34,6 +37,8 @@ h2 {
 .price span {
     font-size: 80px;
     line-height: 101.38%;
+    display: block;
+    margin-top: 5px;
 }
 
 .course_start-bottom {
@@ -62,3 +67,97 @@ h2 {
     font-size: 18px;
     line-height: 101.38%;
 }
+
+/*footer*/
+
+.footer {
+    background: #000;
+    height: 390px;
+}
+
+.footer_black {
+    padding: 50px 146px 23px 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    color: #fff;
+}
+
+.contacts {
+    color: #fff;
+}
+
+.sinhron {
+    width: 115px;
+    height: 68px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+
+.icons {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.icons li {
+    list-style-type: none;
+    
+}
+
+.icons li a {
+    margin-right: 22px;
+}
+
+.icons-img {
+    width: 33px;
+    height: 33px;
+}
+
+.social p {
+    margin-top: 145px;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.contacts {
+    width: 320px;
+    
+}
+
+.img-tel {
+    margin-right: 20px;
+    width: 27px;
+    height: 27px;
+}
+
+.img-mail {
+    width: 27px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.mail {
+    margin-top: 25px;
+}
+
+.tel span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    
+}
+
+.mail span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
