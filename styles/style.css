@@ -3,6 +3,17 @@ body {
 }
 
 .wrapper {
-    min-width: 1600px;
+    min-width: 1440px;
     margin: 0 auto;
+}
+h2 {
+    font-size: 55px;
+}
+.section-program-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-program-block {
+    width: 399px;
+    height: 160px;  
 }
