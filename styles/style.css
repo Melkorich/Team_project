@@ -1,8 +1,64 @@
 body {
+    font-family: Roboto;
     margin: 0;
 }
 
 .wrapper {
-    min-width: 1600px;
+    max-width: 1440px;
     margin: 0 auto;
+}
+
+.course_start {
+    background: #9DC9C8;
+    padding-left: 122px;
+}
+
+h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 55.76px;
+    padding-top: 179px;
+    margin: 0;
+}
+
+.price {
+    margin-top: 62px;
+    font-size: 25px;
+    Line height: 25.35px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.price span {
+    font-size: 80px;
+    line-height: 101.38%;
+}
+
+.course_start-bottom {
+    margin-top: 77px;
+    padding-bottom: 185px;
+    display: flex;
+}
+
+.course_start_bot-block1, .course_start_bot-block2 {
+    width: 294px;
+}
+
+.par_bot-block {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    margin: 0 0 9px 0;
+}
+
+.course_start_bot-block2 {
+    margin-left: 70px;
+}
+
+.bot_text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101.38%;
 }
