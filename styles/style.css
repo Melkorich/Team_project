@@ -3,6 +3,103 @@ body {
 }
 
 .wrapper {
-    min-width: 1600px;
+    max-width: 1440px;
     margin: 0 auto;
+}
+.section-program {
+    font-size: 55px;
+    padding-left: 37px;
+    margin: 248px 0 95px 121px;
+}
+.section-program-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 84px;
+}
+@media screen and (max-width: 375px) {
+    .section-program-blocks {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.section-program-block {
+    width: 399px;
+    height: 328px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.section-program-block:nth-child(-n+2) {
+    margin-right: 37px;
+    margin-bottom: 41px;
+}
+.section-program-block:nth-child(n+4):nth-child(-n+5) {
+    margin-right: 37px;
+    margin-bottom: 41px;
+}
+.section-program-block:nth-child(n+7):nth-child(-n+8) {
+    margin-right: 37px;
+    margin-bottom: 41px;
+}
+.block-icon-name {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 130%;
+    margin: 11px 0 0 20px;
+}
+.block-icon-text {
+    font-size: 25px;
+    line-height: 130%;
+    margin: 32px 15px 23px 19px;
+}
+.block-icon-text-last {
+    font-size: 25px;
+    line-height: 130%;
+    margin: 0 15px 23px 19px;
+}
+.section-result {
+    background-color: #EFEFEF;
+    width: 1440px;
+    height: 780px;
+}
+.result-caption {
+    font-weight: 700;
+    font-size: 55px;
+    margin-left: 122px;
+    padding: 91px 0 34px 0;
+}
+.results {
+    width: 791px;
+    height: 451px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+    margin-left: 122px;  
+}
+.results-text {
+    font-size: 20px;
+    line-height: 150%;
+    min-width: 700px;
+    height: 203px;
+    padding: 40px 46px 0 45px;
+}
+.results-icon {
+    width: 32px;
+    height: 31px;
+}
+.results-foto-name {
+    font-size: 30px;
+    line-height: 101.38%;
+    font-weight: 700;
+}
+.results-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+.results-block-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.results-foto {
+    margin-left: 26px;
 }
