@@ -75,7 +75,7 @@ h2 {
     height: 390px;
 }
 
-.footer_black {
+.footer_inner {
     padding: 50px 146px 23px 122px;
     display: flex;
     justify-content: space-between;
