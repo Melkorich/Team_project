@@ -105,6 +105,8 @@ body {
     margin-left: 26px;
 }
 
+/*course start*/
+
 .course_start {
     background: #9DC9C8;
     padding: 179px 122px 185px 122px;
@@ -123,7 +125,6 @@ h2 {
     margin-top: 62px;
     font-size: 25px;
     line-height: 25.35px;
-    font-weight: normal;
     margin-bottom: 0;
 }
 
@@ -169,12 +170,13 @@ h2 {
     justify-content: space-between;
 }
 
-.social {
+.footer-social {
     color: #fff;
 }
 
-.contacts {
+.footer-contacts {
     color: #fff;
+    width: 320px;
 }
 
 .sinhron {
@@ -185,7 +187,6 @@ h2 {
 .social-icons {
     margin-top: 30px;
 }
-
 
 .icons {
     display: flex;
@@ -207,15 +208,10 @@ h2 {
     height: 33px;
 }
 
-.social p {
+.footer-social p {
     margin-top: 145px;
     font-size: 18px;
     line-height: 101.38%;
-}
-
-.contacts {
-    width: 320px;
-    
 }
 
 .img-tel {
@@ -249,6 +245,87 @@ h2 {
     line-height: 101.38%;
 }
 
-@media screen and (min-width: 992px) and (max-width:1279px ) {
-    
-}
+@media (min-width: 992px) and (max-width: 1279px){
+    .course_start {
+        padding: 88px 122px 107px 71px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-top: 5px;
+    }
+    .price {
+        font-size: 14px;
+        margin-top: 22px;
+    }
+    .price span {
+        font-size: 46px;
+        margin-top: 0;
+    }
+    .par_bot-block {
+        font-size: 14px;
+    }
+    .bot_text {
+        font-size: 10px;
+    }
+    .course_start-bottom {
+        margin-top: 42px;
+    }
+    .course_start_bot-block1, .course_start_bot-block2 {
+        width: 170px;
+    }
+    .course_start_bot-block2 {
+        margin-left: 40px;
+    }
+
+    /*footer*/
+
+    .footer {
+        padding: 29px 103px 14px 71px;
+    }
+    .sinhron {
+        width: 66.6px;
+        height: 39.38px;
+    }
+    .icons-img {
+        width: 19px;
+        height: 19px;
+    }
+    .icons li a {
+        margin-right: 12px;
+    }
+    .sinhron img {
+        width: 66.6px;
+        height: 38px;
+    }
+    .social-icons {
+        margin-top: 14px;
+    }
+    .footer-social p {
+        margin-top: 83px;
+        font-size: 10px;
+    }
+    .tel span {
+        font-size: 14px;
+    }
+    .mail span {
+        font-size: 14px;
+    }
+    .footer-contacts {
+        width: 183px;
+    }
+    .img-tel {
+        margin-right: 13px;
+        width: 15.64px;
+        height: 15.64px;
+    }
+    .img-mail {
+        margin-right: 8px;
+        width: 22px;
+        height: 15px;
+    }
+    .mail {
+        margin-top: 8px;
+    }
+
+
+}   
