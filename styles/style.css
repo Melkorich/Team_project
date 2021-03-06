@@ -107,11 +107,7 @@ body {
 
 .course_start {
     background: #9DC9C8;
-    height: 780px;
-}
-
-.course_start-inner {
-    padding: 179px 545px 185px 122px;
+    padding: 179px 122px 185px 122px;
 }
 
 h2 {
@@ -140,7 +136,6 @@ h2 {
 
 .course_start-bottom {
     margin-top: 77px;
-    padding-bottom: 185px;
     display: flex;
 }
 
@@ -169,10 +164,6 @@ h2 {
 
 .footer {
     background: #000;
-    height: 390px;
-}
-
-.footer_black {
     padding: 50px 146px 23px 122px;
     display: flex;
     justify-content: space-between;
@@ -258,3 +249,6 @@ h2 {
     line-height: 101.38%;
 }
 
+@media screen and (min-width: 992px) and (max-width:1279px ) {
+    
+}
