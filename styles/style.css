@@ -326,6 +326,98 @@ h2 {
     .mail {
         margin-top: 8px;
     }
-
-
 }   
+
+@media (min-width: 320px) and (max-width: 991px){
+    .course_start {
+        padding: 50px 32px 60px 35px;
+    }
+    h2 {
+        font-size: 26px;
+        font-family: Roboto Slab;
+        line-height: 101.38%;
+    }
+    .price {
+        font-size: 12px;
+        margin-top: 27px;
+    }
+    .price span {
+        font-size: 37px;
+        margin-top: 0;
+    }
+    .par_bot-block {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .bot_text {
+        font-size: 10px;
+        margin-top: 7px;
+    }
+    .course_start-bottom {
+        margin-top: 30px;
+    }
+    .course_start_bot-block1, .course_start_bot-block2 {
+        width: 150px;
+    }
+    .course_start_bot-block2 {
+        margin-left: 30px;
+    }
+
+    /*footer*/
+
+    .footer {
+        padding: 23px 189px 10px 35px;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .sinhron {
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .icons-img {
+        width: 15px;
+        height: 15px;
+    }
+    .icons li a {
+        margin-right: 11px;
+    }
+    .sinhron img {
+        width: 57.6px;
+        height: 34px;
+    }
+    .social-icons {
+        margin-top: 14px;
+    }
+    .footer-social p {
+        margin-top: 135px;
+        font-size: 10px;
+    }
+    .tel span {
+        font-size: 12px;
+    }
+    .mail span {
+        font-size: 12px;
+    }
+    .footer-contacts {
+        position: absolute;
+        width: 148.18px;
+        height: 41.01px;
+        left: 36px;
+        top: 129px;
+
+    }
+    .img-tel {
+        margin-right: 8px;
+        width: 12px;
+        height: 12px;
+    }
+    .img-mail {
+        margin-right: 8px;
+        width: 15px;
+        height: 12px;
+    }
+    .mail {
+        margin-top: 3px;
+    }
+
+}
