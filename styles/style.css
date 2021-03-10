@@ -245,13 +245,21 @@ h2 {
     line-height: 101.38%;
 }
 
-@media (min-width: 992px) and (max-width: 1279px){
+
+/*media*/ 
+
+@media (max-width: 1279px){
+
+    /*media course_start */
+
     .course_start {
+        max-width: 1279px;
         padding: 88px 122px 107px 71px;
     }
     h2 {
         font-size: 32px;
         margin-top: 5px;
+
     }
     .price {
         font-size: 14px;
@@ -280,6 +288,8 @@ h2 {
     /*footer*/
 
     .footer {
+        min-width: 0px;
+        max-width: 1279px;
         padding: 29px 103px 14px 71px;
     }
     .sinhron {
@@ -330,6 +340,8 @@ h2 {
 
 @media (min-width: 320px) and (max-width: 991px){
     .course_start {
+        min-width: 0px;
+        max-width: 991px;
         padding: 50px 32px 60px 35px;
     }
     h2 {
@@ -369,6 +381,8 @@ h2 {
         padding: 23px 189px 10px 35px;
         flex-wrap: wrap;
         position: relative;
+        min-width: 0px;
+        max-width: 991px;
     }
     .sinhron {
         width: 53.59px;
@@ -389,7 +403,7 @@ h2 {
         margin-top: 14px;
     }
     .footer-social p {
-        margin-top: 135px;
+        /* margin-top: 135px; */
         font-size: 10px;
     }
     .tel span {
@@ -398,14 +412,14 @@ h2 {
     .mail span {
         font-size: 12px;
     }
-    .footer-contacts {
+    /* .footer-contacts {
         position: absolute;
         width: 148.18px;
         height: 41.01px;
         left: 36px;
         top: 129px;
 
-    }
+    } */
     .img-tel {
         margin-right: 8px;
         width: 12px;
@@ -420,4 +434,79 @@ h2 {
         margin-top: 3px;
     }
 
+}
+
+@media (min-width: 651px) and (max-width: 991px) {
+    .footer {
+        padding: 23px 103px 10px 35px;
+        flex-wrap: wrap;
+        position: relative;
+        min-width: 0px;
+        max-width: 991px;
+    }
+    .sinhron {
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .icons-img {
+        width: 15px;
+        height: 15px;
+    }
+    .icons li a {
+        margin-right: 11px;
+    }
+    .sinhron img {
+        width: 57.6px;
+        height: 34px;
+    }
+    .social-icons {
+        margin-top: 14px;
+    }
+    .footer-social p {
+        /* margin-top: 135px; */
+        font-size: 10px;
+    }
+    .tel span {
+        font-size: 12px;
+    }
+    .mail span {
+        font-size: 12px;
+    }
+    /* .footer-contacts {
+        position: absolute;
+        width: 148.18px;
+        height: 41.01px;
+        left: 36px;
+        top: 129px;
+
+    } */
+    .img-tel {
+        margin-right: 8px;
+        width: 12px;
+        height: 12px;
+    }
+    .img-mail {
+        margin-right: 8px;
+        width: 15px;
+        height: 12px;
+    }
+    .mail {
+        margin-top: 3px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .footer-contacts {
+        position: absolute;
+        width: 148.18px;
+        height: 41.01px;
+        left: 36px;
+        top: 129px;
+
+    }
+    .footer-social p {
+        margin-top: 135px;
+        font-size: 10px;
+    }
 }
