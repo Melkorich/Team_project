@@ -11,7 +11,7 @@ body {
 }
 
 .lesson_format {
-    padding: 0 121px;
+    padding: 0 121px 249px 121px;
 }
 
 .lesson_format h2 {
@@ -47,7 +47,8 @@ body {
 }
 
 .what_learn {
-    padding: 0 121px;
+    padding: 0 121px 249px 121px;
+    margin-bottom: 248px;
 }
 
 .what_learn h2 {
@@ -67,12 +68,9 @@ body {
     padding: 0;
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
+@media (min-width: 992px) and (max-width: 1279px) {
     .lesson_format {
-        padding: 0 70px;
+        padding: 0 70px 144.5px 70px;
     }
     .lesson_format h2 {
         font-size: 32px;
@@ -88,7 +86,7 @@ body {
         font-size: 11px;
     }
     .what_learn {
-        padding: 0 70px;
+        padding: 0 70px 144.5px 70px;
     }
     .what_learn h2 {
         font-size: 32px;
@@ -102,11 +100,8 @@ body {
 }
 
 @media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
     .lesson_format {
-        padding: 0 35px;
+        padding: 0 35px 80px 35px;
     }
     .lesson_format h2 {
         font-size: 26px;
