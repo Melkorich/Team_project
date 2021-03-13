@@ -688,19 +688,26 @@ body {
 
 /* jane block*/
 
-
-.logo{
-  margin-bottom: 100px;
-  margin-top: 0px;
+header {
+    padding: 40px 121px;
 }
+
+.logo img {
+    width: 112px;
+}
+
+.menu {
+    margin-top: 80px;
+}
+
 .menu ul {
   display: flex;
   list-style-type: none;
-  padding: 0;
   font-size: 20px;
 }
 .menu li {
   margin-right: 30px;
+  font-size: 20px;
 }
 
 h1{
@@ -714,26 +721,15 @@ h1{
   line-height: 32.5px;
 }
 
-.citata {
-  /* margin-left: 0; */
-  /* margin-left: 0; */
-  display: block;
-  width: 483px;
-  height: 200px;
-  background-color: #1e4681;
-  border-radius: 5px;
-  color: white;
-  padding: 10px;
-  line-height: 32.5px;
-}
 .citata-font {
   font-size: 25px;
   /* margin: 0px; */
 }
 .tarkovski {
-  font-size: 20px;
-  margin-top: 10px;
-  text-align: end;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    margin-top: 20px;
 }
 .how-to-watch{
   max-width: 1290px;
@@ -742,21 +738,30 @@ h1{
   flex-wrap: wrap;
   margin-right: 100px;
 }
-.producer{
-  margin-left: 150px;
+
+.citata {
+    max-width: 400px;
+    background-color: #1e4681;
+    border-radius: 3px;
+    color: white;
+    padding: 15px;
+    margin-top: 3em;
+    line-height: 130%;
+    margin: 40px auto;
 }
-.citata{
- margin-top: 100px;
- margin-left: 200px;
- margin-bottom: 173px;
+
+.image-bot {
+    margin-right: 120px;
+}
+
+.info-container {
+    padding: 0 121px;
 }
 
 /* o курсе */
 
 .countainer-course-section {
-    padding-top: 173px;
-    padding-bottom:0;
-    padding-left: 122px;
+   padding: 173px 121px;
 
 }
 .countainer-course-section h2 {
@@ -769,11 +774,14 @@ h1{
 
 .container-course {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: center;
 }
 
 .block-text {
-    width: 662px;
-    margin-top: 40px;
+    max-width: 662px;
     font-size: 24px;
     line-height: 150%;
 }
@@ -790,80 +798,40 @@ h1{
   font-size: 24px;
 }
 
-.block-image {
-  position: relative;
-  width: 365px;
-  margin-left: 147px;
-}
-
-.man {
-  position: absolute;
-  width: 314px;
-  height: 315px;
-  left: 40px;
-  top: 30px;
-}
-
 .circle {
-  position: absolute;
-  width: 366px;
-  height: 59px;
-  left: 0;
-  top: 320px;
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 0;
+    top: 320px;
 }
 
 /*section bottom*/ 
 
 .bottom-section {
-  display: flex;
-  padding-top: 0;
-  padding-left: 122px;
-  padding-bottom: 173px;
-
-}
-
-.image-bot {
-  position: relative;
-  width: 232px;
-  height: 240px;
-  margin-top: 74px;
-}
-.img-bot-man {
-  position: absolute;
-  width: 232px;
-  height: 203px;
-  left: 0;
-  top: 0;
+    display: flex;
+    padding: 80px 121px;
+    align-items: center;
 }
 
 .img-bot-circle {
-  position: absolute;
-  width: 189px;
-  height: 32px;
-  left: 30px;
-  top: 190px;
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 30px;
+    top: 190px;
 }
 
 .bottom-blocks {
-  display: flex;
-  margin-top: 120px;
+    display: flex;
 }
 
 .mini_block h3 {
     font-size: 25px;
 }
 
-.mini_block_1 {
-  margin-left: 131px;
-}
-
-
-.mini_block_2 {
-  margin-left: 106px;
-}
-
-.mini_block_3 {
-  margin-left: 99px;
+.mini_block {
+    margin-right: 120px;
 }
 
 h2 {
@@ -908,17 +876,12 @@ h2 {
     }
 
     .block-image {
-        position: relative;
-        /* width: 395px; */
-        margin-left: 95px;
         width: 212px;
         height: 203px;
     }
     .man {
         width: 181.86px;
         height: 182.44px;
-        left: 15px;
-        top: 19px;
     }
     .circle {
         width: 211.98px;
@@ -946,14 +909,42 @@ h2 {
         line-height: 130%;
         margin-top: 4px;
     }
-    .mini_block_1 {
-        margin-left: 0;
+    .mini_block {
+        margin-right: 50px;
+        max-width: 120px;
     }
-    .mini_block_2 {
-        margin-left: 57px;
+    .bottom-section 
+    {
+        padding-left: 70px;
+        padding-right: 70px;
     }
-    .mini_block_3 {
-        margin-left: 52px;
+
+    header {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .info-container {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .info-container p {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .info-container h1 {
+        font-size: 46px;
+        line-height: 101.38%;
+    }
+    
+    .menu li {
+        font-size: 12px;
+        line-height: 115%;
+    }
+
+    .menu img {
+        max-width: 12px;
+        height: 12px;
     }
 }
 
@@ -975,9 +966,6 @@ h2 {
     h1 {
         font-family: Roboto Slab;
         font-size: 26px;
-    }
-    .container-course {
-        flex-wrap: wrap;
     }
 
     .block-text {
@@ -1004,8 +992,6 @@ h2 {
     .man {
         width: 143.55px;
         height: 151.29px;
-        left: -67px;
-        top: 14px;
     }
     .circle {
         width: 149.98px;
@@ -1035,17 +1021,37 @@ h2 {
         font-size: 10px;
         margin-top: 1px;
     }
-    .mini_block_1 {
-        width: 86px;
-        margin-left: 0;
+
+    header {
+        padding-left: 36px;
+        padding-right: 36px;
     }
-    .mini_block_2 {
-        width: 86px;
-        margin-left: 32px;
+    .info-container {
+        padding-left: 36px;
+        padding-right: 36px;
     }
-    .mini_block_3 {
-        width: 86px;
-        margin-left: 32px;
+
+    .info-container p {
+        font-size: 10px;
+        line-height: 150%;
+    }
+    .info-container h1 {
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+    
+    .menu li {
+        font-size: 12px;
+        line-height: 115%;
+    }
+
+    .menu img {
+        max-width: 12px;
+        height: 12px;
+    }
+    .producer img {
+        width: 141px;
+        height: 165px;
     }
 }
 /*media*/ 
@@ -1072,25 +1078,12 @@ h2 {
 }
   
 h1 {
-font-size: 37px;
-font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-margin-top: 0.3em;
-margin-bottom: 0.3em;
-font-weight: 700;
-width: 292px;
+    font-size: 80px;
+    line-height: 101.38%;
+    font-family: Roboto Slab;
 }
 
-.info-container {
-width: 80%;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 70px;
-}
-  
-.format-container {
-display: flex;
-flex-direction: column;
-}
+
 
 .info-items {
 margin-bottom: 2em;
@@ -1107,80 +1100,29 @@ line-height: 130%;
 display: none;
 }
   
-.logo {
-margin-top: 36px;
-width: 80%;
-margin-left: auto;
-margin-right: auto;
-}
-
-.logo img {
-min-width: 52px;
-width: 10%;
-max-width: 60px;
-}
-
-.menu {
-display: flex;
-margin-left: 10%;
-}
-
-.menu img {
-width: 10px;
-}
-  
 .mobile-font {
-font-size: 10px;
-line-height: 15px;
+    font-size: 20px;
+    line-height: 150%;
 }
   
   /* костыль для десктопа */
-.desktop-info-container {
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-/* justify-content: space-between; */
+    .desktop-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
 }
 .desktop-show-camera {
-display: flex;
-width: 200px;
-flex-wrap: wrap;
-justify-content: space-between;
-margin-top: 30px;
-}
-.producer {
-width: 100%;
-display: flex;
-justify-content: flex-end;
-}
-
-.producer img {
-width: 150px;
-}
-  
-.citata {
-margin-left: 0;
-margin-left: 0;
-display: block;
-width: 225px;
-background-color: #1e4681;
-border-radius: 3px;
-color: white;
-padding: 15px;
-margin-top: 3em;
-line-height: 130%;
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
 .mobile-citata-font {
-font-size: 11px;
-line-height: 130%;
-}
-
-.tarkovski {
-font-size: 10px;
-margin-top: 10px;
-text-align: end;
-font-size: 10px;
+    font-size: 25px;
+    line-height: 130%;
 }
 
 p.okurse {
@@ -1189,50 +1131,44 @@ font-size: 12px;
 line-height: 18px;
 }
 .okurse {
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .operator img {
-width: 146px;
+    width: 146px;
 }
 .menu ul {
-display: flex;
-list-style-type: none;
-padding: 0;
-font-size: 10px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    font-size: 10px;
 }
 
 .menu li {
-margin-right: 30px;
-}
-
-  
-.info-container {
-width: 80%;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 70px;
+    margin-right: 30px;
 }
   
 .format-container {
-display: flex;
-flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
   
 .info-items {
-margin-bottom: 2em;
+    margin-bottom: 2em;
 }
   
-.info-items-caption {
-font-size: 12px;
-font-weight: bold;
-line-height: 130%;
+.info-items-    caption {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 130%;
 }
   
 .info-items-caption a {
-color: #1e4681;
+    color: #1e4681;
 }
+
 
 
   /* медиа jane */
@@ -1274,13 +1210,6 @@ color: #1e4681;
       justify-content: start;
       flex-wrap: nowrap;
     }
-    .producer {
-      display: flex;
-    }
-  
-    .producer img {
-      width: 250px;
-    }
 }
   /*планшет медиа jane*/
   
@@ -1300,18 +1229,7 @@ color: #1e4681;
       font-size: 12px;
       line-height: 150%;
     }
-  
-    .menu img {
-      width: 12px;
-    }
-  
-    .menu ul {
-      font-size: 12px;
-    }
-  
-    .menu li {
-      margin-right: 30px;
-    }
+
   
     .desktop-info-container {
       display: flex;
@@ -1330,14 +1248,6 @@ color: #1e4681;
   
     .parent-format-container {
       display: flex;
-    }
-  
-    .citata {
-      margin-left: auto;
-      margin-right: auto;
-      width: 280px;
-      border-radius: 5px;
-      padding: 17px;
     }
   
     .mobile-citata-font {
@@ -1414,7 +1324,6 @@ color: #1e4681;
 @media (max-width: 1290px) {
     .logo img {
       min-width: 112px;
-      width: 10%;
     }
   
     h1 {
@@ -1437,10 +1346,6 @@ color: #1e4681;
       width: 22px;
     }
   
-    .menu ul {
-      font-size: 20px;
-    }
-  
     .menu li {
       margin-right: 30px;
     }
@@ -1450,31 +1355,6 @@ color: #1e4681;
       flex-direction: row;
       justify-content: start;
       flex-wrap: nowrap;
-    }
-  
-    .producer {
-      display: flex;
-      width: 150%;
-    }
-  
-    .producer img {
-      width: 330px;
-    }
-  
-    .citata {
-      margin-left: auto;
-      margin-right: auto;
-      width: 465px;
-      border-radius: 7px;
-      padding: 20px;
-    }
-  
-    .mobile-citata-font {
-      font-size: 25px;
-    }
-  
-    .tarkovski {
-      font-size: 20px;
     }
   
     .okurse {
