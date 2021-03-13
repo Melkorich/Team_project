@@ -15,6 +15,7 @@ body {
     width: 100%;
 }
 .section-program {
+    font-family: 'Roboto Slab';
     font-size: 55px;
     margin: 40px 20px 0 121px;
 }
@@ -54,6 +55,7 @@ body {
     box-sizing: border-box;
 }
 .result-caption {
+    font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 55px;
     margin: 0 0 50px 0;
@@ -89,6 +91,59 @@ body {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        align-items: center;
+    }
+    .section-program {
+        font-size: 26px;
+        margin: 30px 20px 0 34px;
+    }
+    .section-program-block {
+        width: 50%;
+        margin: 12px;
+    }
+    .result-caption {
+        font-size: 26px;
+        margin: 0 0 20px 34px;
+    }
+    .block-icon-name, .results-foto-name {
+        font-size: 14px;
+    }
+    .block-icon-text {
+        font-size: 12px;
+    }
+    .results-text {
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .section-result {
+        padding: 42px 32px 53px 36px;
+    }  
+    .results {
+        width: 82%; 
+        padding: 18px 21px 13px 21px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }     
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .section-program {
+        font-size: 32px;
+        margin: 40px 20px 0 70px;
+    }
+    .block-icon-name, .results-foto-name {
+        font-size: 17px;
+    }
+    .block-icon-text {
+        font-size: 14px;
+    }
+    .result-caption {
+        font-size: 32px;
+        margin: 0 0 30px 0;
+    }
+    .results-text {
+        font-size: 12px;
     }
 }
 
