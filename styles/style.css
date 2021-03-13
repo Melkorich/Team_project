@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     font-family: Roboto;
     margin: 0;
-    font-family: Roboto;
 }
 
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 /* section-program */
+
 .section-programs {
     width: 100%;
 }
@@ -46,7 +45,9 @@ body {
 .program-name-text{
     padding: 11px 15px 23px 19px;
 }
+
 /* section-results */
+
 .section-result {
     width: 100%;
     background-color: #EFEFEF;
@@ -81,6 +82,7 @@ body {
 }
 .results-blocks {
     display: flex;
+    align-items: center;
 }
 .results-block-item {
     padding: 15px;
@@ -97,7 +99,7 @@ body {
         margin: 30px 20px 0 34px;
     }
     .section-program-block {
-        width: 50%;
+        width: 80%;
         min-width: 200px;
         margin: 12px;
     }
@@ -109,7 +111,7 @@ body {
         font-size: 14px;
     }
     .results-foto {
-        width: 40%;
+        width: 80px;
     }
     .results-foto-name {
         margin-bottom: 15px;
@@ -151,15 +153,11 @@ body {
         font-size: 12px;
     }
 }
-/* Kirill */
-.lesson_format {
-    padding: 0 121px 249px 121px;
-}
-/*course start*/
 
-.course_start {
-    background: #9DC9C8;
-    padding: 179px 122px 185px 122px;
+/*lesson_format*/
+
+.lesson_format {
+    padding: 0 121px 180px 121px;
 }
 
 .lesson_format h2 {
@@ -173,13 +171,6 @@ body {
 .format_info {
     display: flex;
     justify-content: flex-start;
-}
-
-.price {
-    margin-top: 62px;
-    font-size: 25px;
-    line-height: 25.35px;
-    margin-bottom: 0;
 }
 
 .info {
@@ -196,19 +187,16 @@ body {
     margin: 30% 0 1% 0;
 }
 
-.course_start-bottom {
-    margin-top: 77px;
-    display: flex;
-}
-
 .info p {
     font-size: 18px;
     margin: 0;
 }
 
+/*what_learn*/
+
+
 .what_learn {
-    padding: 0 121px 249px 121px;
-    margin-bottom: 248px;
+    padding: 0 121px 180px 121px;
 }
 
 .what_learn h2 {
@@ -228,9 +216,11 @@ body {
     padding: 0;
 }
 
+/*media lesson_format and what_learn*/
+
 @media (min-width: 992px) and (max-width: 1279px) {
     .lesson_format {
-        padding: 0 70px 144.5px 70px;
+        padding: 0 70px 121px 70px;
     }
     .lesson_format h2 {
         font-size: 32px;
@@ -246,7 +236,7 @@ body {
         font-size: 11px;
     }
     .what_learn {
-        padding: 0 70px 144.5px 70px;
+        padding: 0 70px 121px 70px;
     }
     .what_learn h2 {
         font-size: 32px;
@@ -261,7 +251,7 @@ body {
 
 @media (max-width: 991px) {
     .lesson_format {
-        padding: 0 35px 80px 35px;
+        padding: 0 35px 73px 35px;
     }
     .lesson_format h2 {
         font-size: 26px;
@@ -294,84 +284,63 @@ body {
     }
 }
 
-.logo{
-  margin-bottom: 100px;
-  margin-top: 0px;
-}
-.menu ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  font-size: 20px;
-}
-.menu li {
-  margin-right: 30px;
+/*course start*/
+
+.course_start {
+    background: #9DC9C8;
+    padding: 179px 122px 185px 122px;
 }
 
-h1{
-   font-size: 80px;
-   line-height: 81.11px;
+.course_start h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 55.76px;
+    margin: 0;
 }
 
-.first-par{
-  font-size: 20px;
-  font-weight: 400px;
-  line-height: 32.5px;
- }
-
-.citata {
-  /* margin-left: 0; */
-  /* margin-left: 0; */
-  display: block;
-  width: 483px;
-  height: 200px;
-  background-color: #1e4681;
-  border-radius: 5px;
-  color: white;
-  padding: 10px;
-  line-height: 32.5px;
-}
-.citata-font {
-  font-size: 25px;
-  /* margin: 0px; */
-}
-.tarkovski {
-  font-size: 20px;
-  margin-top: 10px;
-  text-align: end;
-}
-.how-to-watch{
-  max-width: 1290px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 100px;
-}
-.producer{
-  margin-left: 150px;
-}
-.citata{
- margin-top: 100px;
- margin-left: 200px;
- margin-bottom: 173px;
+.price {
+    margin-top: 62px;
+    font-size: 25px;
+    line-height: 25.35px;
+    margin-bottom: 0;
 }
 
-/* o курсе */
-h2 {
-  font-size: 55px;
-  line-height: 101.38%;
-  font-weight: bold;
+.price span {
+    font-size: 80px;
+    line-height: 101.38%;
+    display: block;
+    margin-top: 5px;
 }
 
-.container-course {
-  display: flex;
+.course_start-bottom {
+    margin-top: 77px;
+    display: flex;
 }
 
-.block-text {
-  width: 660px;
-  font-size: 24px;
-  line-height: 36px;
+.course_start_bot-block1, .course_start_bot-block2 {
+    width: 294px;
 }
+
+.par_bot-block {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    margin: 0 0 9px 0;
+}
+
+.course_start_bot-block2 {
+    margin-left: 70px;
+}
+
+.bot_text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+/*footer*/
 
 .footer {
     background: #000;
@@ -389,78 +358,33 @@ h2 {
     width: 320px;
 }
 
-.par-one {
-  margin-bottom: 0;
-  margin-top: 8px;
+.sinhron {
+    width: 115px;
+    height: 68px;
 }
 
-.par-two {
-  margin-top: 36px;
-  margin-bottom: 0;
+.social-icons {
+    margin-top: 30px;
 }
 
-.block-image {
-  position: relative;
-  width: 365px;
-  margin-left: 147px;
-}
-
-.man {
-  position: absolute;
-  width: 314px;
-  height: 315px;
-  left: 40px;
-  top: 30px;
-}
 .icons {
     display: flex;
     padding: 0;
     margin: 0;
 }
 
-.circle {
-  position: absolute;
-  width: 366px;
-  height: 59px;
-  left: 0;
-  top: 320px;
+.icons li {
+    list-style-type: none;
+    
 }
 
-/*section bottom*/ 
-
-.bottom-section {
-  display: flex;
+.icons li a {
+    margin-right: 22px;
 }
 
-.image-bot {
-  position: relative;
-  width: 232px;
-  height: 240px;
-  margin-top: 74px;
-}
-.img-bot-man {
-  position: absolute;
-  width: 232px;
-  height: 203px;
-  left: 0;
-  top: 0;
-}
-
-.img-bot-circle {
-  position: absolute;
-  width: 189px;
-  height: 32px;
-  left: 30px;
-  top: 190px;
-}
-
-.bottom-blocks {
-  display: flex;
-  margin-top: 120px;
-}
-
-.mini_block_1 {
-  margin-left: 131px;
+.icons-img {
+    width: 33px;
+    height: 33px;
 }
 
 .footer-social p {
@@ -475,165 +399,41 @@ h2 {
     height: 27px;
 }
 
-.mini_block_2 {
-  margin-left: 106px;
+.img-mail {
+    width: 27px;
+    height: 18px;
+    margin-right: 20px;
 }
 
-.mini_block_3 {
-  margin-left: 99px;
+.mail {
+    margin-top: 25px;
 }
 
-h2 {
-  font-size: 55px;
-  margin-bottom: 0;
+.tel span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    
 }
 
-.mini_block p {
-  font-size: 18px;
-  margin-top: 11px;
+.mail span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
 }
 
 
-
-/*all media*/
-/* tablet jane */
-@media (min-width: 830px) and (max-width:1399px) {
-  .wrapper {
-      margin: 0 auto;
-      padding: 56px 71px 180px 72px;
-  }
-  h2 {
-      font-family: Roboto Slab;
-      font-size: 32px;
-  }
-
-  
-  .block-text {
-      width: 50%;
-      font-size: 14px;
-      line-height: 150%;
-  }
-  
-  .par-two {
-      margin-top: 20px;
-  }
-
-  .block-image {
-      position: relative;
-      width: 395px;
-      margin-left: 95px;
-  }
-  .man {
-      width: 181.86px;
-      height: 182.44px;
-      left: 15px;
-      top: 19px;
-  }
-  .circle {
-      width: 211.98px;
-      height: 34.17px;
-      left: -3px;
-      top: 186px;
-  }
-  .image-bot{
-      display: none;
-  } 
-  .bottom-blocks {
-      margin-top: 52px;
-  }
-  h2 {
-      font-size: 15px;
-      line-height: 130%;
-  }
-  .mini_block p {
-      font-size: 11px;
-      line-height: 130%;
-      margin-top: 4px;
-  }
-  .mini_block_1 {
-      margin-left: 0;
-  }
-  .mini_block_2 {
-      margin-left: 57px;
-  }
-  .mini_block_3 {
-      margin-left: 52px;
-  }
-
-  /* okolo mobile jane */
-@media (min-width: 375px) and (max-width:829px) {
-  .wrapper {
-      padding: 56px 35px 115px 35px;
-  }
-  h1 {
-      font-family: Roboto Slab;
-      font-size: 26px;
-  }
-  .container-course {
-     flex-wrap: wrap;
-  }
-
-  .block-text {
-      font-size: 12px;
-      line-height: 18px;
-      width: 308px;
-  }
-  .par-one {
-      margin-top: 5px;
-  }
-  .par-two {
-      margin-top: 18px;
-  }
-  .man {
-      width: 143.55px;
-      height: 151.29px;
-      left: -67px;
-      top: 14px;
-  }
-  .circle {
-      width: 149.98px;
-      height: 23.17px;
-      left: -74px;
-      top: 151px;
-  }
-  .image-bot{
-      display: none;
-  }
-  .bottom-blocks {
-      margin-top: 213px;
-      flex-wrap: wrap;
-      justify-content: start;
-  }
-  h3 {
-      font-size: 12px;
-  }
-  .mini_block p {
-      font-size: 10px;
-      margin-top: 1px;
-  }
-  .mini_block_1 {
-      width: 86px;
-      margin-left: 0;
-  }
-  .mini_block_2 {
-      width: 86px;
-      margin-left: 32px;
-  }
-  .mini_block_3 {
-      width: 86px;
-      margin-left: 32px;
-  }
-/*media*/ 
+/* media course_start and footer*/
 
 @media (max-width: 1279px){
-
-    /*media course_start */
 
     .course_start {
         max-width: 1279px;
         padding: 88px 122px 107px 71px;
     }
-    h2 {
+    .course_start h2 {
         font-size: 32px;
         margin-top: 5px;
 
@@ -721,7 +521,7 @@ h2 {
         max-width: 991px;
         padding: 50px 32px 60px 35px;
     }
-    h2 {
+    .course_start h2 {
         font-size: 26px;
         font-family: Roboto Slab;
         line-height: 101.38%;
@@ -889,186 +689,491 @@ h2 {
 }
 
 
-p {
-    margin: 0;
-    font-size: 12px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  h2 {
-    font-size: 26px;
-    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-  }
-  
-  h1 {
-    font-size: 37px;
-    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
-    font-weight: 700;
-    width: 292px;
-  }
-  .info-container {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
-  }
-  
-  .format-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .info-items {
-    margin-bottom: 2em;
-  }
-  
-  .info-items-caption {
-    font-size: 12px;
-    font-weight: bold;
+/* jane block*/
+
+header {
+    padding: 40px 121px;
+}
+
+.logo img {
+    width: 112px;
+}
+
+.menu {
+    margin-top: 80px;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+}
+.menu li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+h1{
+   font-size: 80px;
+   line-height: 81.11px;
+}
+
+.first-par{
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 32.5px;
+}
+
+.citata-font {
+  font-size: 25px;
+  /* margin: 0px; */
+}
+.tarkovski {
+    font-size: 20px;
     line-height: 130%;
-  }
-  
-  /*мобайл- вышло немного костыльно*/
-  .camera {
-    display: none;
-  }
-  
-  .logo {
-    margin-top: 36px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .logo img {
-    min-width: 52px;
-    width: 10%;
-    max-width: 60px;
-  }
-  
-  .menu {
-    display: flex;
-    margin-left: 10%;
-  }
-  
-  .menu img {
-    width: 10px;
-  }
-  
-  .mobile-font {
-    font-size: 10px;
-    line-height: 15px;
-  }
-  
-  /* костыль для десктопа */
-  .desktop-info-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* justify-content: space-between; */
-  }
-  .desktop-show-camera {
-    display: flex;
-    width: 200px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 30px;
-  }
-  .producer {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .producer img {
-    width: 150px;
-  }
-  
-  .citata {
-    margin-left: 0;
-    margin-left: 0;
-    display: block;
-    width: 225px;
+    text-align: right;
+    margin-top: 20px;
+}
+.how-to-watch{
+  max-width: 1290px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+}
+
+.citata {
+    max-width: 400px;
     background-color: #1e4681;
     border-radius: 3px;
     color: white;
     padding: 15px;
     margin-top: 3em;
     line-height: 130%;
-  }
+    margin: 40px auto;
+}
+
+.image-bot {
+    margin-right: 120px;
+}
+
+.info-container {
+    padding: 0 121px;
+}
+
+/* o курсе */
+
+.countainer-course-section {
+   padding: 173px 121px;
+
+}
+.countainer-course-section h2 {
+  font-size: 55px;
+  line-height: 101.38%;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+.container-course {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.block-text {
+    max-width: 662px;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.par-one {
+  margin-bottom: 0;
+  margin-top: 8px;
+  font-size: 24px;
+}
+
+.par-two {
+  margin-top: 36px;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.circle {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 0;
+    top: 320px;
+}
+
+/*section bottom*/ 
+
+.bottom-section {
+    display: flex;
+    padding: 80px 121px;
+    align-items: center;
+}
+
+.img-bot-circle {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 30px;
+    top: 190px;
+}
+
+.bottom-blocks {
+    display: flex;
+}
+
+.mini_block h3 {
+    font-size: 25px;
+}
+
+.mini_block {
+    margin-right: 120px;
+}
+
+h2 {
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.mini_block p {
+  font-size: 18px;
+  margin-top: 11px;
+}
+
+
+
+/*all media*/
+/* tablet jane */
+@media (min-width: 992px) and (max-width:1279px) {
+    .countainer-course-section {
+        padding: 0 73px 0 70px;
+    }
+    .countainer-course-section h2 {
+        font-family: Roboto Slab;
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+
   
-  .mobile-citata-font {
-    font-size: 11px;
-    line-height: 130%;
-  }
+    .block-text {
+        width: 50%;
+        font-size: 14px;
+        line-height: 150%;
+    }
   
-  .tarkovski {
-    font-size: 10px;
-    margin-top: 10px;
-    text-align: end;
-    font-size: 10px;
-  }
+    .par-one {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .par-two {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .block-image {
+        width: 212px;
+        height: 203px;
+    }
+    .man {
+        width: 181.86px;
+        height: 182.44px;
+    }
+    .circle {
+        width: 211.98px;
+        height: 34.17px;
+        left: -3px;
+        top: 186px;
+    }
+    .image-bot{
+        display: none;
+    } 
+    .bottom-blocks {
+        margin-top: 52px;
+    }
+    h2 {
+        font-size: 15px;
+        line-height: 130%;
+    }
+    .mini_block h3 {
+        font-size: 15px;
+        line-height: 130%;
+    }
+
+    .mini_block p {
+        font-size: 11px;
+        line-height: 130%;
+        margin-top: 4px;
+    }
+    .mini_block {
+        margin-right: 50px;
+        max-width: 120px;
+    }
+    .bottom-section 
+    {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    header {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .info-container {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .info-container p {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .info-container h1 {
+        font-size: 46px;
+        line-height: 101.38%;
+    }
+    
+    .menu li {
+        font-size: 12px;
+        line-height: 115%;
+    }
+
+    .menu img {
+        max-width: 12px;
+        height: 12px;
+    }
+}
+
+  /* okolo mobile jane */
+@media (min-width: 320px) and (max-width:991px) {
+    /* .wrapper {
+        padding: 56px 35px 115px 35px;
+    } */
+    .countainer-course-section {
+        padding: 75px 36px 0 36px;
+    }
+
+    .countainer-course-section h2 {
+        font-size: 26px;
+        line-height: 101.38%;
+    }
   
-  p.okurse {
-    padding-bottom: 10px;
+
+    h1 {
+        font-family: Roboto Slab;
+        font-size: 26px;
+    }
+
+    .block-text {
+        width: 308px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .par-one {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .par-two {
+        margin-top: 18px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .block-image {
+        width: 170.55px;
+        height: 160.29px;
+        margin-top: 15px;
+    }
+
+    .man {
+        width: 143.55px;
+        height: 151.29px;
+    }
+    .circle {
+        width: 149.98px;
+        height: 23.17px;
+        left: -74px;
+        top: 151px;
+    }
+
+    .bottom-section {
+        padding: 0 0 68px 35px;
+    }
+    .image-bot{
+        display: none;
+    }
+    .bottom-blocks {
+        margin-top: 46px;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .mini_block h3 {
+        font-size: 12px;
+        line-height: 130%;
+    }
+   
+    .mini_block p {
+        font-size: 10px;
+        margin-top: 1px;
+    }
+
+    header {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .info-container {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+
+    .info-container p {
+        font-size: 10px;
+        line-height: 150%;
+    }
+    .info-container h1 {
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+    
+    .menu li {
+        font-size: 12px;
+        line-height: 115%;
+    }
+
+    .menu img {
+        max-width: 12px;
+        height: 12px;
+    }
+    .producer img {
+        width: 141px;
+        height: 165px;
+    }
+}
+/*media*/ 
+
+
+
+
+p {
+    margin: 0;
     font-size: 12px;
-    line-height: 18px;
-  }
-  .okurse {
+}
+  
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+h2 {
+    font-size: 26px;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+}
+  
+h1 {
+    font-size: 80px;
+    line-height: 101.38%;
+    font-family: Roboto Slab;
+}
+
+
+
+.info-items {
+margin-bottom: 2em;
+}
+
+.info-items-caption {
+font-size: 12px;
+font-weight: bold;
+line-height: 130%;
+}
+
+/*мобайл- вышло немного костыльно*/
+.camera {
+display: none;
+}
+  
+.mobile-font {
+    font-size: 20px;
+    line-height: 150%;
+}
+  
+  /* костыль для десктопа */
+    .desktop-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.desktop-show-camera {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.mobile-citata-font {
+    font-size: 25px;
+    line-height: 130%;
+}
+
+p.okurse {
+padding-bottom: 10px;
+font-size: 12px;
+line-height: 18px;
+}
+.okurse {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .operator img {
+}
+.operator img {
     width: 146px;
-  }
-  .menu ul {
+}
+.menu ul {
     display: flex;
     list-style-type: none;
     padding: 0;
     font-size: 10px;
-  }
-  
-  .menu li {
+}
+
+.menu li {
     margin-right: 30px;
-  }
+}
   
-  
-  .info-container {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
-  }
-  
-  .format-container {
+.format-container {
     display: flex;
-    flex-direction: column;
-  }
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
   
-  .info-items {
+.info-items {
     margin-bottom: 2em;
-  }
+}
   
-  .info-items-caption {
+.info-items-    caption {
     font-size: 12px;
     font-weight: bold;
     line-height: 130%;
-  }
-  
-  .info-items-caption a {
-    color: #1e4681;
-  }
 }
+  
+.info-items-caption a {
+    color: #1e4681;
+}
+
+
+
   /* медиа jane */
 @media (min-width: 600px) and (max-width: 992px) {
     .programm-container {
@@ -1108,13 +1213,6 @@ p {
       justify-content: start;
       flex-wrap: nowrap;
     }
-    .producer {
-      display: flex;
-    }
-  
-    .producer img {
-      width: 250px;
-    }
 }
   /*планшет медиа jane*/
   
@@ -1134,18 +1232,7 @@ p {
       font-size: 12px;
       line-height: 150%;
     }
-  
-    .menu img {
-      width: 12px;
-    }
-  
-    .menu ul {
-      font-size: 12px;
-    }
-  
-    .menu li {
-      margin-right: 30px;
-    }
+
   
     .desktop-info-container {
       display: flex;
@@ -1164,14 +1251,6 @@ p {
   
     .parent-format-container {
       display: flex;
-    }
-  
-    .citata {
-      margin-left: auto;
-      margin-right: auto;
-      width: 280px;
-      border-radius: 5px;
-      padding: 17px;
     }
   
     .mobile-citata-font {
@@ -1248,7 +1327,6 @@ p {
 @media (max-width: 1290px) {
     .logo img {
       min-width: 112px;
-      width: 10%;
     }
   
     h1 {
@@ -1271,10 +1349,6 @@ p {
       width: 22px;
     }
   
-    .menu ul {
-      font-size: 20px;
-    }
-  
     .menu li {
       margin-right: 30px;
     }
@@ -1284,31 +1358,6 @@ p {
       flex-direction: row;
       justify-content: start;
       flex-wrap: nowrap;
-    }
-  
-    .producer {
-      display: flex;
-      width: 150%;
-    }
-  
-    .producer img {
-      width: 330px;
-    }
-  
-    .citata {
-      margin-left: auto;
-      margin-right: auto;
-      width: 465px;
-      border-radius: 7px;
-      padding: 20px;
-    }
-  
-    .mobile-citata-font {
-      font-size: 25px;
-    }
-  
-    .tarkovski {
-      font-size: 20px;
     }
   
     .okurse {
