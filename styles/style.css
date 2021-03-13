@@ -312,11 +312,35 @@ body {
     width: 320px;
 }
 
+.sinhron {
+    width: 115px;
+    height: 68px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
 .icons {
     display: flex;
     padding: 0;
     margin: 0;
 }
+
+.icons li {
+    list-style-type: none;
+    
+}
+
+.icons li a {
+    margin-right: 22px;
+}
+
+.icons-img {
+    width: 33px;
+    height: 33px;
+}
+
 .footer-social p {
     margin-top: 145px;
     font-size: 18px;
@@ -327,6 +351,31 @@ body {
     margin-right: 20px;
     width: 27px;
     height: 27px;
+}
+
+.img-mail {
+    width: 27px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.mail {
+    margin-top: 25px;
+}
+
+.tel span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    
+}
+
+.mail span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
 }
 
 
