@@ -103,15 +103,7 @@ body {
 .results-block-item {
     padding: 15px;
 }
-<<<<<<< HEAD
 @media (max-width: 991px) {
-=======
-
-
-/*media section-program and section-result*/
-
-@media (min-width: 320px) and (max-width: 991px) {
->>>>>>> origin/dmitriy_fixing
     .section-program-blocks {
         display: flex;
         flex-wrap: wrap;
@@ -378,17 +370,29 @@ body {
 .footer {
     background: #000;
     padding: 50px 146px 23px 122px;
+}
+
+.footer-inner-top {
     display: flex;
     justify-content: space-between;
 }
 
+.footer-inner-bottom {
+    color:#fff;
+    margin-top: 85px;
+}
+
+.footer-inner-bottom p {
+    font-size: 18px;
+    line-height: 101.38%;
+    margin: 0;
+}
 .footer-social {
     color: #fff;
 }
 
 .footer-contacts {
     color: #fff;
-    width: 320px;
 }
 
 .sinhron {
@@ -437,8 +441,14 @@ body {
     margin-right: 20px;
 }
 
+.tel {
+    align-items: center;
+    display: flex;
+}
 .mail {
     margin-top: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .tel span {
@@ -493,9 +503,7 @@ body {
     }
     /*footer*/
     .footer {
-        min-width: 0px;
-        max-width: 1279px;
-        padding: 29px 103px 14px 71px;
+        padding: 29px 71px 14px 71px;
     }
     .sinhron {
         width: 66.6px;
@@ -515,7 +523,7 @@ body {
     .social-icons {
         margin-top: 14px;
     }
-    .footer-social p {
+    .footer-inner-bottom p {
         margin-top: 83px;
         font-size: 10px;
     }
@@ -525,9 +533,9 @@ body {
     .mail span {
         font-size: 14px;
     }
-    .footer-contacts {
+    /* .footer-contacts {
         width: 183px;
-    }
+    } */
     .img-tel {
         margin-right: 13px;
         width: 15.64px;
@@ -580,73 +588,24 @@ body {
     .course_start_bot-block2 {
         margin-left: 30px;
     }
-    /*footer*/
-    .footer {
-        padding: 23px 189px 10px 35px;
-        flex-wrap: wrap;
-        position: relative;
-        min-width: 0px;
-        max-width: 991px;
-    }
-    .sinhron {
-        width: 53.59px;
-        height: 31.69px;
-    }
-    .icons-img {
-        width: 15px;
-        height: 15px;
-    }
-    .icons li a {
-        margin-right: 11px;
-    }
-    .sinhron img {
-        width: 57.6px;
-        height: 34px;
-    }
-    .social-icons {
-        margin-top: 14px;
-    }
-    .footer-social p {
-        /* margin-top: 135px; */
-        font-size: 10px;
-    }
-    .tel span {
-        font-size: 12px;
-    }
-    .mail span {
-        font-size: 12px;
-    }
-    /* .footer-contacts {
-        position: absolute;
-        width: 148.18px;
-        height: 41.01px;
-        left: 36px;
-        top: 129px;
 
-    } */
-    .img-tel {
-        margin-right: 8px;
-        width: 12px;
-        height: 12px;
-    }
-    .img-mail {
-        margin-right: 8px;
-        width: 15px;
-        height: 12px;
-    }
-    .mail {
-        margin-top: 3px;
-    }
+
 }
 
 @media (min-width: 651px) and (max-width: 991px) {
     .footer {
         padding: 23px 103px 10px 35px;
-        flex-wrap: wrap;
-        position: relative;
         min-width: 0px;
         max-width: 991px;
     }
+    .footer-inner-top {
+        flex-wrap: wrap;
+    }
+
+    .footer-social {
+        width: 60%;
+    }
+
     .sinhron {
         width: 53.59px;
         height: 31.69px;
@@ -665,7 +624,7 @@ body {
     .social-icons {
         margin-top: 14px;
     }
-    .footer-social p {
+    .footer-inner-bottom p {
         /* margin-top: 135px; */
         font-size: 10px;
     }
@@ -699,18 +658,81 @@ body {
 }
 
 @media (max-width: 650px) {
+
+    .footer {
+        padding: 23px 103px 10px 35px;
+    }
+    .footer-inner-top {
+        flex-wrap: wrap;
+    }
+
     .footer-contacts {
-        position: absolute;
         width: 148.18px;
         height: 41.01px;
-        left: 36px;
-        top: 129px;
+        margin-top: 48px;
     }
-    .footer-social p {
-        margin-top: 135px;
+
+    .footer-social, .footer-contacts {
+        width: 60%;
+    }
+    .footer-inner-bottom{
+        margin-top: 48px;
+    }
+    
+    .footer-inner-bottom p {
+        margin-top: 49px;
         font-size: 10px;
     }
+    .sinhron {
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .icons-img {
+        width: 15px;
+        height: 15px;
+    }
+    .icons li a {
+        margin-right: 11px;
+    }
+    .sinhron img {
+        width: 57.6px;
+        height: 34px;
+    }
+    .social-icons {
+        margin-top: 14px;
+    }
+    .footer-inner-bottom p {
+        /* margin-top: 135px; */
+        font-size: 10px;
+    }
+    .tel span {
+        font-size: 12px;
+    }
+    .mail span {
+        font-size: 12px;
+    }
+    /* .footer-contacts {
+        width: 148.18px;
+        height: 41.01px;
+    } */
+    .img-tel {
+        margin-right: 8px;
+        width: 12px;
+        height: 12px;
+    }
+    .img-mail {
+        margin-right: 8px;
+        width: 15px;
+        height: 12px;
+    }
+    .mail {
+        margin-top: 3px;
+    }
+    
 }
+
+
+
 
 
 /* jane block*/
@@ -1383,10 +1405,6 @@ p.okurse {
         display: flex;
         flex-direction: column;
     }
-<<<<<<< HEAD
-}
-=======
->>>>>>> origin/dmitriy_fixing
 }
 
 
