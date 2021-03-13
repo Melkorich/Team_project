@@ -46,7 +46,9 @@ body {
 .program-name-text{
     padding: 11px 15px 23px 19px;
 }
+
 /* section-results */
+
 .section-result {
     width: 100%;
     background-color: #EFEFEF;
@@ -85,6 +87,8 @@ body {
 .results-block-item {
     padding: 15px;
 }
+
+/*media section-program and section-result*/
 
 @media (min-width: 320px) and (max-width: 991px) {
     .section-program-blocks {
@@ -147,6 +151,8 @@ body {
     }
 }
 
+/*lesson_format*/
+
 .lesson_format {
     padding: 0 121px 180px 121px;
 }
@@ -183,6 +189,9 @@ body {
     margin: 0;
 }
 
+/*what_learn*/
+
+
 .what_learn {
     padding: 0 121px 180px 121px;
 }
@@ -203,6 +212,8 @@ body {
     margin-left: 15px;
     padding: 0;
 }
+
+/*media lesson_format and what_learn*/
 
 @media (min-width: 992px) and (max-width: 1279px) {
     .lesson_format {
@@ -269,9 +280,6 @@ body {
         margin-left: 8px;
     }
 }
-
-
-
 
 /*course start*/
 
@@ -414,11 +422,9 @@ body {
 }
 
 
-/* media*/
+/* media course_start and footer*/
 
 @media (max-width: 1279px){
-
-    /*media course_start */
 
     .course_start {
         max-width: 1279px;
@@ -708,8 +714,6 @@ h1{
   line-height: 32.5px;
 }
 
-
-
 .citata {
   /* margin-left: 0; */
   /* margin-left: 0; */
@@ -748,10 +752,19 @@ h1{
 }
 
 /* o курсе */
-h2 {
+
+.countainer-course-section {
+    padding-top: 173px;
+    padding-bottom:0;
+    padding-left: 122px;
+
+}
+.countainer-course-section h2 {
   font-size: 55px;
   line-height: 101.38%;
   font-weight: bold;
+  margin-top: 0;
+  margin-bottom:0;
 }
 
 .container-course {
@@ -759,21 +772,22 @@ h2 {
 }
 
 .block-text {
-  width: 660px;
-  font-size: 24px;
-  line-height: 36px;
+    width: 662px;
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 150%;
 }
-
-
 
 .par-one {
   margin-bottom: 0;
   margin-top: 8px;
+  font-size: 24px;
 }
 
 .par-two {
   margin-top: 36px;
   margin-bottom: 0;
+  font-size: 24px;
 }
 
 .block-image {
@@ -802,7 +816,10 @@ h2 {
 
 .bottom-section {
   display: flex;
-  margin-bottom: 94px;
+  padding-top: 0;
+  padding-left: 122px;
+  padding-bottom: 173px;
+
 }
 
 .image-bot {
@@ -832,6 +849,10 @@ h2 {
   margin-top: 120px;
 }
 
+.mini_block h3 {
+    font-size: 25px;
+}
+
 .mini_block_1 {
   margin-left: 131px;
 }
@@ -859,15 +880,14 @@ h2 {
 
 /*all media*/
 /* tablet jane */
-@media (min-width: 830px) and (max-width:1399px) {
-  .wrapper {
-      margin: 0 auto;
-      padding: 56px 71px 180px 72px;
+@media (min-width: 992px) and (max-width:1279px) {
+    .countainer-course-section {
+        padding: 0 73px 0 70px;
     }
-
-    h2 {
+    .countainer-course-section h2 {
         font-family: Roboto Slab;
         font-size: 32px;
+        line-height: 101.38%;
     }
 
   
@@ -877,14 +897,22 @@ h2 {
         line-height: 150%;
     }
   
+    .par-one {
+        font-size: 14px;
+        line-height: 150%;
+    }
     .par-two {
         margin-top: 20px;
+        font-size: 14px;
+        line-height: 150%;
     }
 
     .block-image {
         position: relative;
-        width: 395px;
+        /* width: 395px; */
         margin-left: 95px;
+        width: 212px;
+        height: 203px;
     }
     .man {
         width: 181.86px;
@@ -908,6 +936,11 @@ h2 {
         font-size: 15px;
         line-height: 130%;
     }
+    .mini_block h3 {
+        font-size: 15px;
+        line-height: 130%;
+    }
+
     .mini_block p {
         font-size: 11px;
         line-height: 130%;
@@ -925,10 +958,20 @@ h2 {
 }
 
   /* okolo mobile jane */
-@media (min-width: 375px) and (max-width:829px) {
-    .wrapper {
+@media (min-width: 320px) and (max-width:991px) {
+    /* .wrapper {
         padding: 56px 35px 115px 35px;
+    } */
+    .countainer-course-section {
+        padding: 75px 36px 0 36px;
     }
+
+    .countainer-course-section h2 {
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+  
+
     h1 {
         font-family: Roboto Slab;
         font-size: 26px;
@@ -938,16 +981,26 @@ h2 {
     }
 
     .block-text {
-        font-size: 12px;
-        line-height: 18px;
         width: 308px;
+        font-size: 12px;
+        line-height: 150%;
     }
     .par-one {
         margin-top: 5px;
+        font-size: 12px;
+        line-height: 150%;
     }
     .par-two {
         margin-top: 18px;
+        font-size: 12px;
+        line-height: 150%;
     }
+    .block-image {
+        width: 170.55px;
+        height: 160.29px;
+        margin-top: 15px;
+    }
+
     .man {
         width: 143.55px;
         height: 151.29px;
@@ -960,17 +1013,24 @@ h2 {
         left: -74px;
         top: 151px;
     }
+
+    .bottom-section {
+        padding: 0 0 68px 35px;
+    }
     .image-bot{
         display: none;
     }
     .bottom-blocks {
-        margin-top: 213px;
+        margin-top: 46px;
         flex-wrap: wrap;
         justify-content: start;
     }
-    h3 {
+
+    .mini_block h3 {
         font-size: 12px;
+        line-height: 130%;
     }
+   
     .mini_block p {
         font-size: 10px;
         margin-top: 1px;
