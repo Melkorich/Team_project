@@ -95,6 +95,12 @@ body {
 .lesson_format {
     padding: 0 121px 249px 121px;
 }
+/*course start*/
+
+.course_start {
+    background: #9DC9C8;
+    padding: 179px 122px 185px 122px;
+}
 
 .lesson_format h2 {
     font-family: Roboto Slab;
@@ -109,6 +115,13 @@ body {
     justify-content: flex-start;
 }
 
+.price {
+    margin-top: 62px;
+    font-size: 25px;
+    line-height: 25.35px;
+    margin-bottom: 0;
+}
+
 .info {
     width: 26%;
     padding-right: 5%;
@@ -121,6 +134,11 @@ body {
     line-height: 130%;
     color: #1E4681;
     margin: 30% 0 1% 0;
+}
+
+.course_start-bottom {
+    margin-top: 77px;
+    display: flex;
 }
 
 .info p {
@@ -229,15 +247,18 @@ body {
 .menu li {
   margin-right: 30px;
 }
- h1{
+
+h1{
    font-size: 80px;
    line-height: 81.11px;
- }
- .first-par{
+}
+
+.first-par{
   font-size: 20px;
   font-weight: 400px;
   line-height: 32.5px;
  }
+
 .citata {
   /* margin-left: 0; */
   /* margin-left: 0; */
@@ -292,6 +313,22 @@ h2 {
   line-height: 36px;
 }
 
+.footer {
+    background: #000;
+    padding: 50px 146px 23px 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social {
+    color: #fff;
+}
+
+.footer-contacts {
+    color: #fff;
+    width: 320px;
+}
+
 .par-one {
   margin-bottom: 0;
   margin-top: 8px;
@@ -314,6 +351,11 @@ h2 {
   height: 315px;
   left: 40px;
   top: 30px;
+}
+.icons {
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .circle {
@@ -361,6 +403,18 @@ h2 {
   margin-left: 131px;
 }
 
+.footer-social p {
+    margin-top: 145px;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.img-tel {
+    margin-right: 20px;
+    width: 27px;
+    height: 27px;
+}
+
 .mini_block_2 {
   margin-left: 106px;
 }
@@ -390,7 +444,7 @@ h2 {
   }
   h2 {
       font-family: Roboto Slab;
-      font-size: 32px;фвв
+      font-size: 32px;
   }
 
   
@@ -509,3 +563,267 @@ h2 {
       width: 86px;
       margin-left: 32px;
   }
+/*media*/ 
+
+@media (max-width: 1279px){
+
+    /*media course_start */
+
+    .course_start {
+        max-width: 1279px;
+        padding: 88px 122px 107px 71px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-top: 5px;
+
+    }
+    .price {
+        font-size: 14px;
+        margin-top: 22px;
+    }
+    .price span {
+        font-size: 46px;
+        margin-top: 0;
+    }
+    .par_bot-block {
+        font-size: 14px;
+    }
+    .bot_text {
+        font-size: 10px;
+    }
+    .course_start-bottom {
+        margin-top: 42px;
+    }
+    .course_start_bot-block1, .course_start_bot-block2 {
+        width: 170px;
+    }
+    .course_start_bot-block2 {
+        margin-left: 40px;
+    }
+
+    /*footer*/
+
+    .footer {
+        min-width: 0px;
+        max-width: 1279px;
+        padding: 29px 103px 14px 71px;
+    }
+    .sinhron {
+        width: 66.6px;
+        height: 39.38px;
+    }
+    .icons-img {
+        width: 19px;
+        height: 19px;
+    }
+    .icons li a {
+        margin-right: 12px;
+    }
+    .sinhron img {
+        width: 66.6px;
+        height: 38px;
+    }
+    .social-icons {
+        margin-top: 14px;
+    }
+    .footer-social p {
+        margin-top: 83px;
+        font-size: 10px;
+    }
+    .tel span {
+        font-size: 14px;
+    }
+    .mail span {
+        font-size: 14px;
+    }
+    .footer-contacts {
+        width: 183px;
+    }
+    .img-tel {
+        margin-right: 13px;
+        width: 15.64px;
+        height: 15.64px;
+    }
+    .img-mail {
+        margin-right: 8px;
+        width: 22px;
+        height: 15px;
+    }
+    .mail {
+        margin-top: 8px;
+    }
+}   
+
+@media (min-width: 320px) and (max-width: 991px){
+    .course_start {
+        min-width: 0px;
+        max-width: 991px;
+        padding: 50px 32px 60px 35px;
+    }
+    h2 {
+        font-size: 26px;
+        font-family: Roboto Slab;
+        line-height: 101.38%;
+    }
+    .price {
+        font-size: 12px;
+        margin-top: 27px;
+    }
+    .price span {
+        font-size: 37px;
+        margin-top: 0;
+    }
+    .par_bot-block {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .bot_text {
+        font-size: 10px;
+        margin-top: 7px;
+    }
+    .course_start-bottom {
+        margin-top: 30px;
+    }
+    .course_start_bot-block1, .course_start_bot-block2 {
+        width: 150px;
+    }
+    .course_start_bot-block2 {
+        margin-left: 30px;
+    }
+
+    /*footer*/
+
+    .footer {
+        padding: 23px 189px 10px 35px;
+        flex-wrap: wrap;
+        position: relative;
+        min-width: 0px;
+        max-width: 991px;
+    }
+    .sinhron {
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .icons-img {
+        width: 15px;
+        height: 15px;
+    }
+    .icons li a {
+        margin-right: 11px;
+    }
+    .sinhron img {
+        width: 57.6px;
+        height: 34px;
+    }
+    .social-icons {
+        margin-top: 14px;
+    }
+    .footer-social p {
+        /* margin-top: 135px; */
+        font-size: 10px;
+    }
+    .tel span {
+        font-size: 12px;
+    }
+    .mail span {
+        font-size: 12px;
+    }
+    /* .footer-contacts {
+        position: absolute;
+        width: 148.18px;
+        height: 41.01px;
+        left: 36px;
+        top: 129px;
+
+    } */
+    .img-tel {
+        margin-right: 8px;
+        width: 12px;
+        height: 12px;
+    }
+    .img-mail {
+        margin-right: 8px;
+        width: 15px;
+        height: 12px;
+    }
+    .mail {
+        margin-top: 3px;
+    }
+
+}
+
+@media (min-width: 651px) and (max-width: 991px) {
+    .footer {
+        padding: 23px 103px 10px 35px;
+        flex-wrap: wrap;
+        position: relative;
+        min-width: 0px;
+        max-width: 991px;
+    }
+    .sinhron {
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .icons-img {
+        width: 15px;
+        height: 15px;
+    }
+    .icons li a {
+        margin-right: 11px;
+    }
+    .sinhron img {
+        width: 57.6px;
+        height: 34px;
+    }
+    .social-icons {
+        margin-top: 14px;
+    }
+    .footer-social p {
+        /* margin-top: 135px; */
+        font-size: 10px;
+    }
+    .tel span {
+        font-size: 12px;
+    }
+    .mail span {
+        font-size: 12px;
+    }
+    /* .footer-contacts {
+        position: absolute;
+        width: 148.18px;
+        height: 41.01px;
+        left: 36px;
+        top: 129px;
+
+    } */
+    .img-tel {
+        margin-right: 8px;
+        width: 12px;
+        height: 12px;
+    }
+    .img-mail {
+        margin-right: 8px;
+        width: 15px;
+        height: 12px;
+    }
+    .mail {
+        margin-top: 3px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .footer-contacts {
+        position: absolute;
+        width: 148.18px;
+        height: 41.01px;
+        left: 36px;
+        top: 129px;
+
+    }
+    .footer-social p {
+        margin-top: 135px;
+        font-size: 10px;
+    }
+}
