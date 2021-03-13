@@ -17,7 +17,7 @@ body {
 .section-program {
     font-family: 'Roboto Slab';
     font-size: 55px;
-    margin: 40px 20px 0 121px;
+    margin: 40px 121px 0 121px;
 }
 .section-program-blocks {
     width: 100%;
@@ -34,7 +34,6 @@ body {
 }
 .block-icon-name {
     font-size: 30px;
-    font-weight: 700;
     line-height: 130%;
 }
 .block-icon-text {
@@ -86,7 +85,7 @@ body {
 .results-block-item {
     padding: 15px;
 }
-@media (min-width: 320px) and (max-width: 991px) {
+@media (max-width: 991px) {
     .section-program-blocks {
         display: flex;
         flex-wrap: wrap;
@@ -99,14 +98,21 @@ body {
     }
     .section-program-block {
         width: 50%;
+        min-width: 200px;
         margin: 12px;
     }
     .result-caption {
         font-size: 26px;
-        margin: 0 0 20px 34px;
+        margin: 0 0 20px 40px;
     }
     .block-icon-name, .results-foto-name {
         font-size: 14px;
+    }
+    .results-foto {
+        width: 40%;
+    }
+    .results-foto-name {
+        margin-bottom: 15px;
     }
     .block-icon-text {
         font-size: 12px;
@@ -126,7 +132,6 @@ body {
         margin-right: auto;
     }     
 }
-
 @media (min-width: 992px) and (max-width: 1279px) {
     .section-program {
         font-size: 32px;
@@ -146,7 +151,7 @@ body {
         font-size: 12px;
     }
 }
-
+/* Kirill */
 .lesson_format {
     padding: 0 121px 249px 121px;
 }
